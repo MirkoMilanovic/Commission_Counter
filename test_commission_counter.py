@@ -15,7 +15,7 @@ def test_commission_10():
     assert get_commission('2022-12-10') == 10
 
 
-def test_commision_incorrect_date():
+def test_commission_incorrect_date():
     assert get_commission('2022-00-10') == 'Incorrect date!'
     assert get_commission('2022-13-10') == 'Incorrect date!'
     assert get_commission('2022-05-00') == 'Incorrect date!'
